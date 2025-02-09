@@ -47,7 +47,7 @@ async function DoScrape(){
 
 					uniqueCounter++;
 					black_list = black_list + el_href;
-					if (uniqueCounter > 499){
+					if (uniqueCounter > 49900){
 						throw new Error('break');
 					}
 				}
